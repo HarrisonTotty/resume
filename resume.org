@@ -1,0 +1,30 @@
+#+title: Harrison Totty
+#+author: [[mailto:harrisongtotty@gmail.com][harrisongtotty@gmail.com]]
+#+options: toc:nil num:nil
+
+* Experience
+** Wolfram Research, Inc.
+*** DevOps Engineer (April 2018 - PRESENT)
+- Implemented and maintained configuration management and remote execution frameworks for the various Wolfram Cloud environments.
+- Architected in-house software platforms.
+*** Web Systems Administrator (December 2016 - April 2018)
+- Maintained hundreds of p
+*** Web Systems Intern (September 2016 - December 2016)
+- Investigated application containerization efforts.
+* Education
+** Tallahassee Community College
+*** Associate's Degree (August 2015 - June 2016)
+- Graduated honors with 4.0 GPA.
+* Languages
+- Bash/Zsh
+- C/C++
+- C# (.NET)
+- Python
+- Rust
+* Projects
+** Machine Learning via Feed-Forward Boolean Networks
+- Invited to Bentley University in Boston on behalf of Wolfram Research.
+** mkdot
+- A highly versatile systems configuration templating system written in Python.
+** symrs
+- A computer algebra library written in Rust.
