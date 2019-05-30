@@ -1,4 +1,6 @@
-$[ do require('this.content', 'this.title') ]$
+$[ do require('this.source', 'this.title') ]$
+
+$[ set full_content = get(this.source) ]$
 
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
@@ -11,7 +13,35 @@ $[ do require('this.content', 'this.title') ]$
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
-$[ for item in this.content ]$
+$[ if this.content is defined ]$
+
+$[ for c in this.content ]$
+$[ for item in full_content ]$
+$[ if c == item.name ]$
+
+  \cventry
+    {[[ item.desc ]]}
+    {[[ item.header ]]}
+    {[[ item.location ]]}
+    {[[ item.dates ]]}
+    {
+      \begin{cvitems}
+$[ if item.content is defined ]$
+$[ for i in item.content ]$
+        \item {[[ i ]]}
+$[ endfor ]$
+$[ endif ]$
+      \end{cvitems}
+    }
+
+$[ break ]$
+$[ endif ]$
+$[ endfor ]$
+$[ endfor ]$
+
+$[ else ]$
+
+$[ for item in full_content ]$
   \cventry
     {[[ item.desc ]]}
     {[[ item.header ]]}
@@ -28,5 +58,7 @@ $[ endif ]$
     }
 
 $[ endfor ]$
+
+$[ endif ]$
 
 \end{cventries}

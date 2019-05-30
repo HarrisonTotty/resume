@@ -1,0 +1,58 @@
+# Projects
+# --------
+
+projects:
+  # ----- CV/Resume -----
+  - name: "resume"
+    header: '\href{https://github.com/HarrisonTotty/resume}{CV/Resume}'
+    desc: "(This Document)"
+    location: "Personal Project"
+    dates: "May 2019 - "
+    content:
+      - "Built from Jinja2-templated LaTeX documents via \"tmpl\"."
+      - "Raw data present in YAML format."
+
+  # ----- tmpl -----
+  - name: "tmpl"
+    header: '\href{https://github.com/HarrisonTotty/tmpl}{tmpl}'
+    desc: "A general-purpose templating system"
+    location: "Personal Project"
+    dates: "May 2019 - Jun 2019"
+    content:
+      - "A general-purpose Jinja2/YAML templating system based on \"mkconf\" and \"mkdot\"."
+      - "Utilized in the generation of this CV/Resume."
+      - "Supports runtime-loaded Python extensions to the templating system."
+      - "Capable of handling raw Jinja2 content piped directly to STDIN."
+
+  # ----- Remote Execution Framework -----
+  - name: "remote-framework"
+    header: '\href{https://github.com/HarrisonTotty/remote-framework}{Remote Execution Framework}'
+    desc: "An easy remote command execution utility"
+    location: "Personal Project"
+    dates: "Nov 2018 - Apr 2019"
+    content:
+      - "Written in Python3 as a lightweight alternative to frameworks such as Fabric and Ansible."
+      - "Automatically formats output depending on whether a TTY is present."
+      - "Capable of running both arbitrary commands and defined tasks."
+      - "Includes interactive console mode."
+
+  # ----- mkdot -----
+  - name: "mkdot"
+    header: '\href{https://github.com/HarrisonTotty/mkdot}{mkdot}'
+    desc: "The handy dotfile templating system"
+    location: "Personal Project"
+    dates: "Oct 2018 - Dec 2018"
+    content:
+      - "Based on \"mkconf\" project, but specialized for the generation of dotfiles."
+  
+  # ----- mkconf -----
+  - name: "mkconf"
+    header: '\href{https://github.com/HarrisonTotty/mkconf}{mkconf}'
+    desc: "An Apache Web Server configuration templating engine"
+    location: "Wolfram Research, Inc."
+    dates: "Aug 2018 - Sep 2018"
+    content:
+      - "Generates Apache Web Server configurations from Jinja2 templates and YAML configuration files."
+      - "Replaced older in-house utility written in Perl."
+      - "Validates directives after generating configuration files."
+      - "Capable of backing-up previous configurations and reverting changes."

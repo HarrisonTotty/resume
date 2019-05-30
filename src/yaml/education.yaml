@@ -1,0 +1,19 @@
+# Education Experience
+# --------------------
+
+education:
+  # ----- Tallahassee Community College -----
+  - name: "tcc"
+    header: "Tallahassee Community College"
+    desc: "Associates of Science"
+    location: "Tallahassee, FL"
+    dates: "Jan 2015 - Jan 2016"
+    content:
+      - "Graduated honors with 4.0 GPA."
+  
+  # ----- University of West Florida -----
+  - name: "uwf"
+    header: "University of West Florida"
+    desc: "Physics"
+    location: "Pensacola, FL"
+    dates: "Aug 2011 - Jul 2014"
