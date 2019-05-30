@@ -1,0 +1,32 @@
+$[ do require('this.content', 'this.title') ]$
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{[[ this.title ]]}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+$[ for item in this.content ]$
+  \cventry
+    {[[ item.desc ]]}
+    {[[ item.header ]]}
+    {[[ item.location ]]}
+    {[[ item.dates ]]}
+    {
+      \begin{cvitems}
+$[ if item.content is defined ]$
+$[ for i in item.content ]$
+        \item {[[ i ]]}
+$[ endfor ]$
+$[ endif ]$
+      \end{cvitems}
+    }
+
+$[ endfor ]$
+
+\end{cventries}

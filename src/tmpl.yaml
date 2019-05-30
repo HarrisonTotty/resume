@@ -1,0 +1,230 @@
+# Resume Template Configuration File
+# ----------------------------------
+
+# Include additional configuration files.
+#include:
+#  - "yaml/"
+
+
+# ---------- Global Variables -----------
+
+# My home's address.
+address: "1307 West University Ave, Champaign IL 61821"
+
+# My email address.
+email: "harrisongtotty@gmail.com"
+
+# My first name.
+first_name: "Harrison"
+
+# My full name.
+full_name: "Harrison G. Totty"
+
+# My GitHub account name.
+github: "HarrisonTotty"
+
+# My last name.
+last_name: "Totty"
+
+# My LinkedIn profile name.
+linkedin: "harrisont"
+
+# My cell phone number.
+phone_number: "(850) 461-8381"
+
+# My full name, minus the middle initial.
+short_name: "Harrison Totty"
+
+# My website's URL.
+website: "harrisontotty.github.io"
+
+# ---------------------------------------
+
+
+# ---------- Templates & Files ----------
+
+files:
+  # ----- Libraries & Fonts -----
+  - dst: "awesome-cv.cls"
+    translate: false
+
+  - dst: "fontawesome.sty"
+    translate: false
+
+  - dst: "fonts/*.ttf"
+    translate: false
+
+  # ----- Cover Letter -----
+  - dst: "coverletter.tex"
+  
+  # ----- CV -----
+  - dst: "cv.tex"
+    name_header: '{Harrison G.}{Totty}'
+    position: 'DevOps Engineer{\enskip\cdotp\enskip}Software Programmer'
+    sections:
+      - "education"
+      - "skills"
+      - "experience"
+      - "projects"
+
+  # ----- Resume -----
+  - dst: "resume.tex"
+
+  - dst: "resume/*.tex"
+
+  # ----- Section: Education -----
+  - dst: "sections/education.tex"
+    src: "section.template"
+    title: "Education"
+    content:
+      - header: "Tallahassee Community College"
+        desc: "Associates of Science"
+        location: "Tallahassee, FL"
+        dates: "Jan 2015 - Jan 2016"
+        content:
+          - "Graduated honors with 4.0 GPA."
+      - header: "University of West Florida"
+        desc: "Physics"
+        location: "Pensacola, FL"
+        dates: "Aug 2011 - Jul 2014"
+
+  # ----- Section: Experience -----
+  - dst: "sections/experience.tex"
+    src: "section.template"
+    title: "Work Experience"
+    content:
+      - header: "Wolfram Research, Inc."
+        desc: "DevOps Engineer"
+        location: "Champaign, IL"
+        dates: "Apr 2018 - Present"
+        content:
+          - "Developed/Implemented configuration management and remote execution frameworks for the various Wolfram Cloud environments."
+          - "Personally architected software platforms, individual servers, machine clusters, and deployment workflows."
+          - "Provided routine performance and security analysis."
+          - "Improved deployment processes for Wolfram Cloud."
+      - header: ""
+        desc: "Web Systems Administrator"
+        location: ""
+        dates: "Dec 2016 - Apr 2018"
+        content:
+          - "Provided general systems administration for various Wolfram web products and services."
+          - "Designed \\& built DEV/TEST environments for Wolfram Cloud."
+          - "Developed backend code for the Wolfram Cloud Platform in Java."
+      - header: ""
+        desc: "Web Systems Intern"
+        location: ""
+        dates: "Sep 2016 - Dec 2016"
+        content:
+          - "Developed systems utilities to aid common operations tasks."
+          - "Implemented new Wolfram kernel features in C."
+          - "Ported many internal components to containerized environments."
+      - header: "Tallahassee Community College"
+        desc: "Mathematics and Technology Tutor"
+        location: "Tallahassee, FL"
+        dates: "May 2016 - Aug 2016"
+        content:
+          - "Provided tutoring and support to students in various mathematics and technology topics."
+      - header: "Wolfram Research, Inc."
+        desc: "Wolfram Summer School Student"
+        location: "Boston, MA"
+        dates: "Jan 2013 - Feb 2013"
+        content:
+          - "Invited to Bentley University for three weeks to conduct research on various machine learning analogues."
+      - header: "Radio Shack"
+        desc: "Sales Associate"
+        location: "Pensacola, FL"
+        dates: "Jul 2013 - Mar 2015"
+        content:
+          - "Provided customer service and support for a variety of mobile devices, DIY components, and more."
+      - header: "University of West Florida"
+        desc: "Student SSE System Administrator"
+        location: "Pensacola, FL"
+        dates: "Jan 2014 - Aug 2014"
+        content:
+          - "Provided general systems administration for the faculty of the School of Science and Engineering."
+      - header: ""
+        desc: "ResNet Technician"
+        location: ""
+        dates: "Feb 2012 - Aug 2013"
+        content:
+          - "Supported the technical needs of dorm students."
+
+  # ----- Section: Projects -----
+  - dst: "sections/projects.tex"
+    src: "section.template"
+    title: "Projects"
+    content:
+      - header: '\href{https://github.com/HarrisonTotty/resume}{CV/Resume}'
+        desc: "(This Document)"
+        location: "Personal Project"
+        dates: "May 2019 - "
+        content:
+          - "Built from Jinja2-templated LaTeX documents via \"tmpl\"."
+          - "Raw data present in YAML format."
+      - header: '\href{https://github.com/HarrisonTotty/tmpl}{tmpl}'
+        desc: "A general-purpose templating system"
+        location: "Personal Project"
+        dates: "May 2019 - Jun 2019"
+        content:
+          - "A general-purpose Jinja2/YAML templating system based on \"mkconf\" and \"mkdot\"."
+          - "Utilized in the generation of this CV/Resume."
+          - "Supports runtime-loaded Python extensions to the templating system."
+          - "Capable of handling raw Jinja2 content piped directly to STDIN."
+      - header: '\href{https://github.com/HarrisonTotty/remote-framework}{Remote Execution Framework}'
+        desc: "An easy remote command execution utility"
+        location: "Personal Project"
+        dates: "Nov 2018 - Apr 2019"
+        content:
+          - "Written in Python3 as a lightweight alternative to frameworks such as Fabric and Ansible."
+          - "Automatically formats output depending on whether a TTY is present."
+          - "Capable of running both arbitrary commands and defined tasks."
+          - "Includes interactive console mode."
+      - header: '\href{https://github.com/HarrisonTotty/mkdot}{mkdot}'
+        desc: "The handy dotfile templating system"
+        location: "Personal Project"
+        dates: "Oct 2018 - Dec 2018"
+        content:
+          - "Based on \"mkconf\" project, but specialized for the generation of dotfiles."
+      - header: '\href{https://github.com/HarrisonTotty/mkconf}{mkconf}'
+        desc: "An Apache Web Server configuration templating engine"
+        location: "Wolfram Research, Inc."
+        dates: "Aug 2018 - Sep 2018"
+        content:
+          - "Generates Apache Web Server configurations from Jinja2 templates and YAML configuration files."
+          - "Replaced older in-house utility written in Perl."
+          - "Validates directives after generating configuration files."
+          - "Capable of backing-up previous configurations and reverting changes."
+        
+
+  # ----- Section: Skills -----
+  - dst: "sections/skills.tex"
+    src: "skills.template"
+    title: "Skills"
+    skills:
+      - group: "Configuration Management"
+        content: "Puppet, Salt"
+      - group: "Configuration/Data Languages"
+        content: "JSON, TOML, YAML"
+      - group: "GNU/Linux Distrobutions"
+        content: "Arch Linux, Gentoo, Debian (Ubuntu), RHEL (CentOS), Void Linux"
+      - group: "High Availability"
+        content: "HAProxy, keepalived"
+      - group: "Human Languages"
+        content: "English (Native), German (Beginner)"
+      - group: "Markup Languages"
+        content: "LaTeX, Markdown, Org"
+      - group: "Programming Languages"
+        content: "C/C++, C\\#, Emacs Lisp, Perl, Python, Rust, Shell Languages, Wolfram (Mathematica)"
+      - group: "Project Management"
+        content: "GitHub Issues/Projects, GitLab Issues, JIRA"
+      - group: "Repository Hosting"
+        content: "Bitbucket, GitHub, GitLab"
+      - group: "Templating Languages"
+        content: "Liquid, Jinja, Puppet"
+      - group: "Text Editors"
+        content: "GNU Emacs, Vim"
+      - group: "Version Control Systems"
+        content: "cvs, git"
+      - group: "Web Servers"
+        content: "Apache Tomcat, Apache Web Server"
+# ---------------------------------------
