@@ -47,17 +47,17 @@ website: "harrisontotty.github.io"
 
 files:
   # ----- Libraries & Fonts -----
-  - dst: "awesome-cv.cls"
+  - dst: "harry-cv.cls"
     translate: false
-
   - dst: "fontawesome.sty"
     translate: false
-
   - dst: "fonts/*.ttf"
     translate: false
 
   # ----- Cover Letter -----
   - dst: "coverletter.tex"
+    name_header: '{Harrison G.}{Totty}'
+    position: 'DevOps Engineer{\enskip\cdotp\enskip}Software Programmer'
   
   # ----- CV -----
   - dst: "cv.tex"

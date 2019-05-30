@@ -14,8 +14,7 @@ export TMPL_VAR_END_STR="]]"
 export TMPL_VAR_START_STR="[["
 
 compiler="xelatex -halt-on-error"
-cv_srcs=$(find src/cv -name '*.tex')
-resume_srcs=$(find src/resume -name '*.tex')
+sections=$(find build/sections -name '*.tex')
 tmpl_cmd="tmpl src/tmpl.yaml --delete -o build"
 
 function all {
@@ -44,7 +43,7 @@ function coverletter {
 function cv {
     echo "  --> Compiling CV..."
     cd build
-    $compiler cv.tex $cv_srcs >/dev/null || (echo "      Unable to compile CV!" && exit 1)
+    $compiler cv.tex $sections >/dev/null || (echo "      Unable to compile CV!" && exit 1)
     cd ..
     mv build/cv.pdf release/
 }
@@ -52,7 +51,7 @@ function cv {
 function resume {
     echo "  --> Compiling resume..."
     cd build
-    $compiler resume.tex $resume_srcs >/dev/null || (echo "      Unable to compile resume!" && exit 1)
+    $compiler resume.tex $sections >/dev/null || (echo "      Unable to compile resume!" && exit 1)
     cd ..
     mv build/resume.pdf release/
 }
