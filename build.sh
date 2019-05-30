@@ -14,7 +14,6 @@ export TMPL_VAR_END_STR="]]"
 export TMPL_VAR_START_STR="[["
 
 compiler="xelatex -halt-on-error"
-sections=$(find build/sections -name '*.tex')
 tmpl_cmd="tmpl src/tmpl.yaml --delete -o build"
 
 function all {
@@ -37,22 +36,31 @@ function coverletter {
     cd build
     $compiler coverletter.tex >/dev/null || (echo "      Unable to compile cover letter!" && exit 1)
     cd ..
+    if [ ! -d release ]; then
+        mkdir release
+    fi
     mv build/coverletter.pdf release/
 }
 
 function cv {
     echo "  --> Compiling CV..."
     cd build
-    $compiler cv.tex $sections >/dev/null || (echo "      Unable to compile CV!" && exit 1)
+    $compiler cv.tex >/dev/null || (echo "      Unable to compile CV!" && exit 1)
     cd ..
+    if [ ! -d release ]; then
+        mkdir release
+    fi
     mv build/cv.pdf release/
 }
 
 function resume {
     echo "  --> Compiling resume..."
     cd build
-    $compiler resume.tex $sections >/dev/null || (echo "      Unable to compile resume!" && exit 1)
+    $compiler resume.tex >/dev/null || (echo "      Unable to compile resume!" && exit 1)
     cd ..
+    if [ ! -d release ]; then
+        mkdir release
+    fi
     mv build/resume.pdf release/
 }
 
@@ -65,6 +73,8 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-$tmpl_cmd
+if ! echo "$1" | grep -q "clean"; then
+    $tmpl_cmd
+fi
 $1
-rm -rf build/*.{aux,log,out}
+
