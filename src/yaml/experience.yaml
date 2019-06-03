@@ -4,8 +4,8 @@
 experience:
   # ----- Wolfram Research -----
   - name: "wolfram-devops"
-    header: "Wolfram Research, Inc."
-    desc: "DevOps Engineer"
+    header: "// Wolfram Research, Inc."
+    desc: "[ DevOps Engineer ]"
     location: "Champaign, IL"
     dates: "Apr 2018 - Present"
     content:
@@ -15,7 +15,7 @@ experience:
       - "Improved deployment processes for Wolfram Cloud."
   - name: "wolfram-websys-admin"
     header: ""
-    desc: "Web Systems Administrator"
+    desc: "[ Web Systems Administrator ]"
     location: ""
     dates: "Dec 2016 - Apr 2018"
     content:
@@ -24,7 +24,7 @@ experience:
       - "Developed backend code for the Wolfram Cloud Platform in Java."
   - name: "wolfram-intern"
     header: ""
-    desc: "Web Systems Intern"
+    desc: "[ Web Systems Intern ]"
     location: ""
     dates: "Sep 2016 - Dec 2016"
     content:
@@ -34,8 +34,8 @@ experience:
 
   # ----- Tallahassee Community College -----
   - name: "tcc"
-    header: "Tallahassee Community College"
-    desc: "Mathematics and Technology Tutor"
+    header: "// Tallahassee Community College"
+    desc: "[ Mathematics and Technology Tutor ]"
     location: "Tallahassee, FL"
     dates: "May 2016 - Aug 2016"
     content:
@@ -43,8 +43,8 @@ experience:
 
   # ----- Wolfram Summer School -----
   - name: "wolfram-summer-school"
-    header: "Wolfram Research, Inc."
-    desc: "Wolfram Summer School Student"
+    header: "// Wolfram Research, Inc."
+    desc: "[ Wolfram Summer School Student ]"
     location: "Boston, MA"
     dates: "Jan 2013 - Feb 2013"
     content:
@@ -52,8 +52,8 @@ experience:
 
   # ----- Radio Shack -----
   - name: "radioshack"
-    header: "Radio Shack"
-    desc: "Sales Associate"
+    header: "// Radio Shack"
+    desc: "[ Sales Associate ]"
     location: "Pensacola, FL"
     dates: "Jul 2013 - Mar 2015"
     content:
@@ -61,15 +61,15 @@ experience:
 
   # ----- University of West Florida -----
   - name: "uwf-sse"
-    header: "University of West Florida"
-    desc: "Student SSE System Administrator"
+    header: "// University of West Florida"
+    desc: "[ Student SSE System Administrator ]"
     location: "Pensacola, FL"
     dates: "Jan 2014 - Aug 2014"
     content:
       - "Provided general systems administration for the faculty of the School of Science and Engineering."
   - name: "uwf-resnet"
     header: ""
-    desc: "ResNet Technician"
+    desc: "[ ResNet Technician ]"
     location: ""
     dates: "Feb 2012 - Aug 2013"
     content:
