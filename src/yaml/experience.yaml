@@ -1,6 +1,26 @@
 # Work Experience
 # ---------------
 
+# ---------- Experience Files ----------
+files:
+  # ----- Section: Experience (CV) -----
+  - dst: "sections/cv-experience.tex"
+    src: "section.template"
+    title: "Work Experience"
+    source: "experience"
+
+  # ----- Section: Experience (Resume) -----
+  - dst: "sections/resume-experience.tex"
+    src: "section.template"
+    title: "Work Experience"
+    source: "experience"
+    content:
+      - "wolfram-devops"
+      - "wolfram-websys-admin"
+      - "wolfram-intern"
+
+
+# ---------- Experience Data ----------
 experience:
   # ----- Wolfram Research -----
   - name: "wolfram-devops"

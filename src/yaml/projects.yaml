@@ -1,6 +1,26 @@
-# Projects
-# --------
+# Projects (Personal & Professional)
+# ----------------------------------
 
+# ---------- Projects Files ----------
+files:
+  # ----- Section: Projects (CV) -----
+  - dst: "sections/cv-projects.tex"
+    src: "section.template"
+    title: "Projects"
+    source: "projects"
+
+  # ----- Section: Projects (Resume) -----
+  - dst: "sections/resume-projects.tex"
+    src: "section.template"
+    title: "Sample Projects"
+    source: "projects"
+    content:
+      - "resume"
+      - "tmpl"
+      - "remote-framework"
+
+
+# ---------- Projects Data ----------
 projects:
   # ----- CV/Resume -----
   - name: "resume"

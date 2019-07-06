@@ -1,6 +1,23 @@
 # Education Experience
 # --------------------
 
+# ---------- Education Files ----------
+files:
+  # ----- Section: Education (CV) -----
+  - dst: "sections/cv-education.tex"
+    src: "section.template"
+    title: "Education"
+    source: "education"
+
+  # ----- Section: Education (Resume) -----
+  - dst: "sections/resume-education.tex"
+    src: "section.template"
+    title: "Education"
+    source: "education"
+    content:
+      - "tcc"
+
+# ---------- Education Data ----------
 education:
   # ----- Tallahassee Community College -----
   - name: "tcc"

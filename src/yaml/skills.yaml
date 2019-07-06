@@ -1,0 +1,36 @@
+# Professional Skills
+# -------------------
+
+# ---------- Skills Files ----------
+files:
+  # ----- Section: Skills (CV) -----
+  - dst: "sections/cv-skills.tex"
+    src: "skills-section.template"
+    title: "Skills"
+    skills:
+      - group: "Configuration Management"
+        content: "Puppet, Salt"
+      - group: "Configuration/Data Languages"
+        content: "JSON, TOML, YAML"
+      - group: "GNU/Linux Distrobutions"
+        content: "Arch Linux, Gentoo, Debian (Ubuntu), RHEL (CentOS), Void Linux"
+      - group: "High Availability"
+        content: "HAProxy, keepalived"
+      - group: "Human Languages"
+        content: "English (Native), German (Beginner)"
+      - group: "Markup Languages"
+        content: "LaTeX, Markdown, Org"
+      - group: "Programming Languages"
+        content: "C/C++, C\\#, Emacs Lisp, Perl, Python, Rust, Shell Languages, Wolfram (Mathematica)"
+      - group: "Project Management"
+        content: "GitHub Issues/Projects, GitLab Issues, JIRA"
+      - group: "Repository Hosting"
+        content: "Bitbucket, GitHub, GitLab"
+      - group: "Templating Languages"
+        content: "Liquid, Jinja, Puppet"
+      - group: "Text Editors"
+        content: "GNU Emacs, Vim"
+      - group: "Version Control Systems"
+        content: "cvs, git"
+      - group: "Web Servers"
+        content: "Apache Tomcat, Apache Web Server"
