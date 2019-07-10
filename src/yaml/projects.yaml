@@ -24,8 +24,8 @@ files:
 projects:
   # ----- CV/Resume -----
   - name: "resume"
-    header: '// \href{https://github.com/HarrisonTotty/resume}{CV \& Resume}'
-    desc: "[ (This Document) ]"
+    header: '\href{https://github.com/HarrisonTotty/resume}{CV \& Resume}'
+    desc: "(This Document)"
     location: "Personal Project"
     dates: "May 2019 - "
     content:
@@ -34,8 +34,8 @@ projects:
 
   # ----- tmpl -----
   - name: "tmpl"
-    header: '// \href{https://github.com/HarrisonTotty/tmpl}{tmpl}'
-    desc: "[ A general-purpose templating system ]"
+    header: '\href{https://github.com/HarrisonTotty/tmpl}{tmpl}'
+    desc: "A general-purpose templating system"
     location: "Personal Project"
     dates: "May 2019 - Jun 2019"
     content:
@@ -46,8 +46,8 @@ projects:
 
   # ----- Remote Execution Framework -----
   - name: "remote-framework"
-    header: '// \href{https://github.com/HarrisonTotty/remote-framework}{Remote Execution Framework}'
-    desc: "[ An easy remote command execution utility ]"
+    header: '\href{https://github.com/HarrisonTotty/remote-framework}{Remote Execution Framework}'
+    desc: "An easy remote command execution utility"
     location: "Personal Project"
     dates: "Nov 2018 - Apr 2019"
     content:
@@ -58,8 +58,8 @@ projects:
 
   # ----- mkdot -----
   - name: "mkdot"
-    header: '// \href{https://github.com/HarrisonTotty/mkdot}{mkdot}'
-    desc: "[ The handy dotfile templating system ]"
+    header: '\href{https://github.com/HarrisonTotty/mkdot}{mkdot}'
+    desc: "The handy dotfile templating system"
     location: "Personal Project"
     dates: "Oct 2018 - Dec 2018"
     content:
@@ -67,8 +67,8 @@ projects:
   
   # ----- mkconf -----
   - name: "mkconf"
-    header: '// \href{https://github.com/HarrisonTotty/mkconf}{mkconf}'
-    desc: "[ An Apache Web Server configuration templating engine ]"
+    header: '\href{https://github.com/HarrisonTotty/mkconf}{mkconf}'
+    desc: "An Apache Web Server configuration templating engine"
     location: "Wolfram Research, Inc."
     dates: "Aug 2018 - Sep 2018"
     content:
