@@ -1,0 +1,18 @@
+# Example - Cover Letter Data
+# ----------------------------
+
+address: "1234 Example St, Example, IL 61820"
+
+opening: "Dear Example,"
+
+recipient: "Example, Inc."
+
+title: "Job Application for Senior DevOps Engineer"
+
+sections:
+  - title: "About Me"
+    content: >-
+      This is an example.
+  - title: "Example 2"
+    content: >-
+      This is another example.

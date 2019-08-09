@@ -20,6 +20,7 @@ files:
   - dst: "coverletter.tex"
     name_header: '{Harrison G.}{Totty}'
     position: 'DevOps Engineer{\enskip\cdotp\enskip}Software Programmer'
+    data_file: 'yaml/letters/example.yaml'
   
   # ----- CV -----
   - dst: "cv.tex"
