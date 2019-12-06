@@ -29,10 +29,10 @@ experience:
     location: "Champaign, IL"
     dates: "Apr 2018 - Present"
     content:
+      - "Architected Kubernetes clusters and supporting deployment pipelines for Wolfram Alpha."
       - "Developed/Implemented configuration management and remote execution frameworks for the various Wolfram Cloud environments."
       - "Personally architected software platforms, individual servers, machine clusters, and deployment workflows."
       - "Provided routine performance and security analysis."
-      - "Improved deployment processes for Wolfram Cloud."
   - name: "wolfram-websys-admin"
     header: ""
     desc: "Web Systems Administrator"
