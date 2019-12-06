@@ -1,5 +1,8 @@
 # .gitignore
 
+# Cover letter data
+/src/yaml/letters/*.yaml
+
 # Build directory
 /build
 
