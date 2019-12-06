@@ -1,7 +1,8 @@
 # .gitignore
 
-# Cover letter data
+# Cover letter data except example letter
 /src/yaml/letters/*.yaml
+!/src/yaml/letters/example.yaml
 
 # Build directory
 /build
