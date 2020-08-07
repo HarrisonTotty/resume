@@ -15,7 +15,7 @@ files:
     title: "Sample Projects"
     source: "projects"
     content:
-      - "resume"
+      - "tcat"
       - "tmpl"
       - "remote-framework"
 

@@ -34,7 +34,7 @@ function clean-all {
 function coverletter {
     echo "  --> Compiling cover letter..."
     cd build
-    $compiler coverletter.tex >/dev/null || (echo "      Unable to compile cover letter!" && exit 1)
+    $compiler coverletter.tex > coverletter.log 2>&1 || (echo "      Unable to compile cover letter!" && exit 1)
     cd ..
     if [ ! -d release ]; then
         mkdir release
@@ -45,7 +45,7 @@ function coverletter {
 function cv {
     echo "  --> Compiling CV..."
     cd build
-    $compiler cv.tex >/dev/null || (echo "      Unable to compile CV!" && exit 1)
+    $compiler cv.tex > cv.log 2>&1 || (echo "      Unable to compile CV!" && exit 1)
     cd ..
     if [ ! -d release ]; then
         mkdir release
@@ -56,7 +56,7 @@ function cv {
 function resume {
     echo "  --> Compiling resume..."
     cd build
-    $compiler resume.tex >/dev/null || (echo "      Unable to compile resume!" && exit 1)
+    $compiler resume.tex > resume.log 2>&1 || (echo "      Unable to compile resume!" && exit 1)
     cd ..
     if [ ! -d release ]; then
         mkdir release
