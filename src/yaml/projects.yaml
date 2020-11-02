@@ -15,16 +15,41 @@ files:
     title: "Sample Projects"
     source: "projects"
     content:
+      - "centos8"
+      - "prov"
       - "tcat"
       - "tmpl"
-      - "remote-framework"
 
 
 # ---------- Projects Data ----------
 projects:
+  # ----- Web Systems Infrastructure Rearchitecture -----
+  - name: 'centos8'
+    header: 'Web Systems Infrastructure Rearchitecture'
+    desc: 'A project to modernize all on-premesis user-facing infrastructure'
+    location: 'Wolfram Research, Inc.'
+    dates: 'Mar 2020 - '
+    content:
+      - 'Leveraged Cobbler for systems provisioning and Puppet for configuration management.'
+      - 'Targeted CentOS 8.2 (up from CentOS 6.8 and 5.5) for new machines, while still integrating with older environments.'
+      - 'Implemented infrastructure-as-code standards.'
+      - 'Developed more than \href{https://github.com/HarrisonTotty/puppet-modules}{\faGithubSquare 20 Puppet modules}, each with a high degree of parameterization.'
+
+  # ----- prov ----
+  - name: 'prov'
+    header: '\href{https://github.com/HarrisonTotty/prov}{\faGithubSquare\: prov}'
+    desc: 'A Python script to modify Cobbler item specifications in a Terraform-like declarative way'
+    location: 'Wolfram Research, Inc.'
+    dates: 'Mar 2020 - May 2020'
+    content:
+      - "Leverages Cobbler's XMLRPC API to synchronize YAML-based item specifications."
+      - "Shows Terraform-like client-server differences prior or during application."
+      - "Supports backwards-compatibility with Cobbler servers older than version 3."
+      - "Synchronizes data items (such as profiles and systems) as well as files (such as snippets)."
+
   # ----- TCAT -----
   - name: 'tcat'
-    header: '\href{https://harrisontotty.github.io/p/tcat}{Personal Finance Analytics Platform}'
+    header: '\href{https://harrisontotty.github.io/p/tcat}{\faGithubSquare\: Personal Finance Analytics Platform}'
     desc: "A Python library for categorizing and analyzing bank transactions"
     location: "Personal Project"
     dates: "Mar 2020 - "
@@ -35,7 +60,7 @@ projects:
  
   # ----- CV/Resume -----
   - name: "resume"
-    header: '\href{https://github.com/HarrisonTotty/resume}{CV \& Resume}'
+    header: '\href{https://github.com/HarrisonTotty/resume}{\faGithubSquare\: CV \& Resume}'
     desc: "(This Document)"
     location: "Personal Project"
     dates: "May 2019 - "
@@ -45,7 +70,7 @@ projects:
 
   # ----- tmpl -----
   - name: "tmpl"
-    header: '\href{https://github.com/HarrisonTotty/tmpl}{tmpl}'
+    header: '\href{https://github.com/HarrisonTotty/tmpl}{\faGithubSquare\: tmpl}'
     desc: "A general-purpose templating system"
     location: "Personal Project"
     dates: "May 2019 - Jun 2019"
@@ -57,7 +82,7 @@ projects:
 
   # ----- Remote Execution Framework -----
   - name: "remote-framework"
-    header: '\href{https://github.com/HarrisonTotty/remote-framework}{Remote Execution Framework}'
+    header: '\href{https://github.com/HarrisonTotty/remote-framework}{\fqGithubSquare Remote Execution Framework}'
     desc: "An easy remote command execution utility"
     location: "Personal Project"
     dates: "Nov 2018 - Apr 2019"
@@ -69,7 +94,7 @@ projects:
 
   # ----- mkdot -----
   - name: "mkdot"
-    header: '\href{https://github.com/HarrisonTotty/mkdot}{mkdot}'
+    header: '\href{https://github.com/HarrisonTotty/mkdot}{\faGithubSquare\: mkdot}'
     desc: "The handy dotfile templating system"
     location: "Personal Project"
     dates: "Oct 2018 - Dec 2018"
@@ -78,7 +103,7 @@ projects:
   
   # ----- mkconf -----
   - name: "mkconf"
-    header: '\href{https://github.com/HarrisonTotty/mkconf}{mkconf}'
+    header: '\href{https://github.com/HarrisonTotty/mkconf}{\faGithubSquare\: mkconf}'
     desc: "An Apache Web Server configuration templating engine"
     location: "Wolfram Research, Inc."
     dates: "Aug 2018 - Sep 2018"

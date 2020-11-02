@@ -18,13 +18,13 @@ files:
 
   # ----- Cover Letter -----
   - dst: "coverletter.tex"
-    name_header: '{Harrison G.}{Totty}'
+    name_header: '{}{Harrison Totty}'
     position: 'DevOps Engineer{\enskip\cdotp\enskip}Software Programmer'
     data_file: 'yaml/letters/example.yaml'
   
   # ----- CV -----
   - dst: "cv.tex"
-    name_header: '{Harrison G.}{Totty}'
+    name_header: '{}{Harrison Grant Totty}'
     position: 'DevOps Engineer{\enskip\cdotp\enskip}Software Programmer'
     sections:
       - "cv-education"
@@ -34,7 +34,7 @@ files:
 
   # ----- Resume -----
   - dst: "resume.tex"
-    name_header: '{Harrison}{Totty}'
+    name_header: '{}{Harrison Totty}'
     position: 'DevOps Engineer{\enskip\cdotp\enskip}Software Programmer'
     sections:
       - "resume-summary"
