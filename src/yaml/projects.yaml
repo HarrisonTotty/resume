@@ -82,7 +82,7 @@ projects:
 
   # ----- Remote Execution Framework -----
   - name: "remote-framework"
-    header: '\href{https://github.com/HarrisonTotty/remote-framework}{\fqGithubSquare Remote Execution Framework}'
+    header: '\href{https://github.com/HarrisonTotty/remote-framework}{\faGithubSquare\: Remote Execution Framework}'
     desc: "An easy remote command execution utility"
     location: "Personal Project"
     dates: "Nov 2018 - Apr 2019"
