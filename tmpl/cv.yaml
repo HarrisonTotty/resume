@@ -1,0 +1,138 @@
+# CV Template Configuration File
+# ------------------------------
+
+include:
+  - 'include/**/*.yaml'
+
+files:
+  - dst: 'cv.tex'
+    src: 'document.template'
+    name_header: '{}{Harrison Grant Totty}'
+    sections:
+      - 'summary'
+      - 'education'
+      - 'skills'
+      - 'experience'
+      - 'projects'
+    title: 'Curriculum Vitae'
+
+content:
+  education:
+    - 'tcc'
+    - 'uwf'
+  experience:
+    - 'wolfram-devops'
+    - 'wolfram-websys-admin'
+    - 'wolfram-intern'
+    - 'tcc'
+    - 'wolfram-summer-school'
+    - 'radio-shack'
+    - 'uwf-sse'
+    - 'uwf-resnet'
+  projects:
+    - 'wolfram-centos8'
+    - 'wolfram-prov'
+    - 'personal-tcat'
+    - 'personal-resume'
+    - 'personal-grav'
+    - 'personal-tmpl'
+    - 'personal-remote'
+    - 'personal-mkdot'
+    - 'wolfram-mkconf'
+    - 'personal-simplex-universe'
+  skills:
+    - name: 'CD/CD'
+      content:
+        - 'jenkins-pipelines'
+    - name: 'Cluster Orchestration'
+      content:
+        - 'helm'
+        - 'k8s'
+    - name: 'Configuration Management'
+      content:
+        - 'ansible'
+        - 'puppet'
+        - 'salt'
+    - name: 'Container Runtimes \& Virtualization'
+      content:
+        - 'containerd'
+        - 'docker'
+    - name: 'Data Languages'
+      content:
+        - 'ini'
+        - 'json'
+        - 'toml'
+        - 'xml'
+        - 'yaml'
+    - name: 'Data Science'
+      content:
+        - 'jupyter'
+        - 'mathematica'
+        - 'matplotlib'
+        - 'plotly'
+        - 'sympy'
+    - name: 'GNU/Linux Distributions'
+      content:
+        - 'arch-linux'
+        - 'gentoo'
+        - 'debian'
+        - 'rhel'
+        - 'void'
+    - name: 'High Availability'
+      content:
+        - 'haproxy'
+        - 'keepalived'
+    - name: 'Markup Languages'
+      content:
+        - 'latex'
+        - 'markdown'
+        - 'org'
+    - name: 'Networking Fundamentals'
+      content:
+        - 'arp'
+        - 'cidr'
+        - 'mikrotik'
+        - 'models'
+        - 'ubiquity'
+        - 'vlan'
+    - name: 'Programming Languages'
+      content:
+        - 'cpp'
+        - 'csharp'
+        - 'elisp'
+        - 'groovy'
+        - 'perl'
+        - 'python'
+        - 'rust'
+        - 'sh'
+        - 'wolfram'
+    - name: 'Project Management'
+      content:
+        - 'github-pm'
+        - 'gitlab-pm'
+        - 'jira'
+    - name: 'Repository Hosting'
+      content:
+        - 'bitbucket'
+        - 'github'
+        - 'gitlab'
+    - name: 'Secrets Management'
+      content:
+        - 'vault'
+    - name: 'Templating Languages'
+      content:
+        - 'cheetah'
+        - 'erb'
+        - 'liquid'
+        - 'jinja'
+    - name: 'Text Editors'
+      content:
+        - 'atom'
+        - 'emacs'
+        - 'nano'
+        - 'vim'
+        - 'vsc'
+    - name: 'Version Control Systems'
+      content:
+        - 'cvs'
+        - 'git'

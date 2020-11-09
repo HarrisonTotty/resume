@@ -1,0 +1,22 @@
+# Document Sections
+# -----------------
+
+files:
+  - dst: 'sections/education.tex'
+    src: 'section.template'
+    title: 'Education'
+    source: 'education'
+  - dst: 'sections/experience.tex'
+    src: 'section.template'
+    title: 'Work Experience'
+    source: 'experience'
+  - dst: 'sections/projects.tex'
+    src: 'section.template'
+    title: 'Projects'
+    source: 'projects'
+  - dst: 'sections/skills.tex'
+    src: 'skills-section.template'
+    title: 'Relevant Skills'
+  - dst: 'sections/summary.tex'
+    src: 'text-section.template'
+    title: 'Summary'

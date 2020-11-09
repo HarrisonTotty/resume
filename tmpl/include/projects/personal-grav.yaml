@@ -1,0 +1,10 @@
+projects:
+  'grav':
+    header: '\href{https://github.com/HarrisonTotty/grav}{\faGithubSquare\: grav}'
+    desc: 'A gravitational n-body simulation program written in Rust'
+    location: 'Personal Project'
+    dates: 'Nov 2019 - Dec 2019'
+    content:
+      - 'Leverages an entity-component-systems (ECS) simulation backend.'
+      - 'Simulation data post-processed via Jupyter notebook.'
+      - 'Custom 3D vector and physical laws implementation.'

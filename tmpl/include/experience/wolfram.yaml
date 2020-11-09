@@ -1,0 +1,36 @@
+experience:
+  "wolfram-devops":
+    header: "Wolfram Research, Inc."
+    desc: "DevOps Engineer"
+    location: "Champaign, IL"
+    dates: "Apr 2018 - Present"
+    content:
+      - "Architected Kubernetes clusters and supporting deployment pipelines."
+      - "Developed/Implemented configuration management and remote execution frameworks."
+      - "Personally architected software platforms, individual servers, machine clusters, and deployment workflows."
+      - "Provided routine performance and security analysis."
+  "wolfram-websys-admin":
+    header: ""
+    desc: "Web Systems Administrator"
+    location: ""
+    dates: "Dec 2016 - Apr 2018"
+    content:
+      - "Provided general systems administration for various Wolfram web products and services."
+      - "Designed \\& built DEV/TEST environments for Wolfram Cloud."
+      - "Developed backend code for the Wolfram Cloud Platform in Java."
+  "wolfram-intern":
+    header: ""
+    desc: "Web Systems Intern"
+    location: ""
+    dates: "Sep 2016 - Dec 2016"
+    content:
+      - "Developed systems utilities to aid common operations tasks."
+      - "Implemented new Wolfram kernel features in C."
+      - "Ported many internal components to containerized environments."
+  "wolfram-summer-school":
+    header: "Wolfram Research, Inc."
+    desc: "Wolfram Summer School Student"
+    location: "Boston, MA"
+    dates: "Jan 2013 - Feb 2013"
+    content:
+      - "Invited to Bentley University for three weeks to conduct research on various machine learning analogues."

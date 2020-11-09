@@ -1,4 +1,4 @@
-$[ do require('this.content', 'this.title') ]$
+$[ do require('this.title') ]$
 
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
@@ -11,6 +11,6 @@ $[ do require('this.content', 'this.title') ]$
 %-------------------------------------------------------------------------------
 \begin{cvparagraph}
 
-[[ this.content ]]
+[[ this.content|default(summary, true) ]]
 
 \end{cvparagraph}

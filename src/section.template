@@ -13,11 +13,9 @@ $[ set full_content = get(this.source) ]$
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
-$[ if this.content is defined ]$
-
-$[ for c in this.content ]$
-$[ for item in full_content ]$
-$[ if c == item.name ]$
+$[ for i in content[this.source] ]$
+$[ for item_name, item in full_content.items() ]$
+$[ if i == item_name ]$
 
   \cventry
     {[[ item.desc ]]}
@@ -39,26 +37,5 @@ $[ endif ]$
 $[ endfor ]$
 $[ endfor ]$
 
-$[ else ]$
-
-$[ for item in full_content ]$
-  \cventry
-    {[[ item.desc ]]}
-    {[[ item.header ]]}
-    {[[ item.location ]]}
-    {[[ item.dates ]]}
-    {
-      \begin{cvitems}
-$[ if item.content is defined ]$
-$[ for i in item.content ]$
-        \item {[[ i ]]}
-$[ endfor ]$
-$[ endif ]$
-      \end{cvitems}
-    }
-
-$[ endfor ]$
-
-$[ endif ]$
 
 \end{cventries}

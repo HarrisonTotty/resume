@@ -1,0 +1,69 @@
+# Resume Template Configuration File
+# ----------------------------------
+
+include:
+  - 'include/**/*.yaml'
+
+files:
+  - dst: 'resume.tex'
+    src: 'document.template'
+    name_header: '{}{Harrison Totty}'
+    sections:
+      - 'summary'
+      - 'experience'
+      - 'skills'
+      - 'education'
+    title: 'Résumé'
+
+content:
+  education:
+    - 'tcc'
+  experience:
+    - 'wolfram-devops'
+    - 'wolfram-websys-admin'
+    - 'wolfram-intern'
+  projects:
+    - 'wolfram-centos8'
+    - 'wolfram-prov'
+  skills:
+    - name: 'DevOps'
+      content:
+        - 'docker'
+        - 'k8s'
+    - name: 'Configuration Management'
+      content:
+        - 'ansible'
+        - 'cobbler'
+        - 'puppet'
+        - 'salt'
+    - name: 'Data Science'
+      content:
+        - 'jupyter'
+        - 'mathematica'
+        - 'matplotlib'
+        - 'plotly'
+        - 'sympy'
+    - name: 'Systems Administration'
+      content:
+        - 'arch-linux'
+        - 'debian'
+        - 'Puppet'
+        - 'rhel'
+    - name: 'Networking Fundamentals'
+      content:
+        - 'arp'
+        - 'cidr'
+        - 'mikrotik'
+        - 'models'
+        - 'ubiquity'
+        - 'vlan'
+    - name: 'Programming Languages'
+      content:
+        - 'cpp'
+        - 'csharp'
+        - 'elisp'
+        - 'groovy'
+        - 'perl'
+        - 'python'
+        - 'rust'
+        - 'sh'

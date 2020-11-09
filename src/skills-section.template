@@ -1,4 +1,4 @@
-$[ do require('this.skills', 'this.title') ]$
+$[ do require('this.title') ]$
 
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
@@ -11,10 +11,16 @@ $[ do require('this.skills', 'this.title') ]$
 %-------------------------------------------------------------------------------
 \begin{cvskills}
 
-$[ for skill in this.skills ]$
-  \cvskill
-    {[[ skill.group ]]}
-    {[[ skill.content ]]}
+$[ for group in content.skills ]$
+$[ set group_items = [] ]$
+$[ for k, v in skills.items() ]$
+$[ if k in group.content ]$
+$[ do group_items.append(v) ]$
+$[ endif ]$
+$[ endfor ]$
+\cvskill
+  {[[ group.name ]]}
+  {[[ group_items|join(', ') ]]}
 $[ endfor ]$
 
 \end{cvskills}
