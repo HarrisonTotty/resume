@@ -1,0 +1,10 @@
+projects:
+  'personal-tcat':
+    header: '\href{https://harrisontotty.github.io/p/tcat}{\faGithubSquare\: Personal Finance Analytics Platform}'
+    desc: "A Python library for categorizing and analyzing bank transactions"
+    location: "Personal Project"
+    dates: "Mar 2020 - "
+    content:
+      - "Categorizes transactions based on a home-made library of regular expressions."
+      - "Leverages sklearn to perform predictive regression on financial trends."
+      - "Provides a wrapper around plotly for graphical analysis."

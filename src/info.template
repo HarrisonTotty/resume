@@ -4,47 +4,19 @@ $[ if this.name_header is defined ]$
 $[ elif name_header is defined ]$
 \name[[ name_header ]]
 $[ else ]$
-\name{Harrison}{Totty}
+\name{}{[[ short_name ]]}
 $[ endif ]$
 
-$[ if this.position is defined ]$
-\position{[[ this.position ]]}
-$[ elif position is defined ]$
 \position{[[ position ]]}
-$[ endif ]$
 
-$[ if this.address is defined ]$
-\address{[[ this.address ]]}
-$[ elif address is defined ]$
 \address{[[ address ]]}
-$[ endif ]$
 
-$[ if this.phone_number is defined ]$
-\mobile{[[ this.phone_number ]]}
-$[ elif phone_number is defined ]$
 \mobile{[[ phone_number ]]}
-$[ endif ]$
 
-$[ if this.email is defined ]$
-\email{[[ this.email ]]}
-$[ elif email is defined ]$
 \email{[[ email ]]}
-$[ endif ]$
 
-$[ if this.website is defined ]$
-\homepage{[[ this.website ]]}
-$[ elif website is defined ]$
 \homepage{[[ website ]]}
-$[ endif ]$
 
-$[ if this.github is defined ]$
-\github{[[ this.github ]]}
-$[ elif github is defined ]$
 \github{[[ github ]]}
-$[ endif ]$
 
-$[ if this.linkedin is defined ]$
-\linkedin{[[ this.linkedin ]]}
-$[ elif linkedin is defined ]$
 \linkedin{[[ linkedin ]]}
-$[ endif ]$

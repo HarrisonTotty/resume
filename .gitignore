@@ -1,11 +1,21 @@
-# .gitignore
+# .gitignore File
+# ---------------
 
-# Cover letter data except example letter
-/src/yaml/letters/*.yaml
-!/src/yaml/letters/example.yaml
+# Releases other than generic cv, resume, and example letter.
+/release/*.pdf
+!/release/cv.pdf
+!/release/letter-example.pdf
+!/release/resume.pdf
+
+# Non-example letters
+/tmpl/letter-*.yaml
+!/tmpl/letter-example.yaml
 
 # Build directory
 /build
+
+# tmpl
+/tmpl-binary
 
 # Core latex/pdflatex auxiliary files
 *.aux

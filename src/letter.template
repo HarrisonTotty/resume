@@ -1,0 +1,45 @@
+$[ do require('this.address','this.opening','this.recipient','this.sections','this.title') ]$
+
+$[ include 'style.template' ]$
+
+$[ include 'info.template' ]$
+
+\recipient{[[ this.recipient ]]}{[[ this.address ]]}
+\letterdate{\today}
+\lettertitle{[[ this.title ]]}
+\letteropening{[[ this.opening ]]}
+\letterclosing{Sincerely,}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[[ this.header_alignment|default('[R]', true) ]]
+
+\makecvfooter
+  {\today}
+  {[[ full_name ]]~~~·~~~[[ this.footer_title|default('Cover Letter', true) ]]}
+  {}
+
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+$[ for section in this.sections ]$
+
+\lettersection{[[ section.title ]]}
+[[ section.content ]]
+
+$[ endfor ]$
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

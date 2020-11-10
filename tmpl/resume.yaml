@@ -1,0 +1,130 @@
+# Developer Resume Template Configuration File
+# --------------------------------------------
+
+include:
+  - 'include/**/*.yaml'
+
+files:
+  - dst: 'resume.tex'
+    src: 'document.template'
+    name_header: '{}{Harrison Totty}'
+    sections:
+      - 'summary'
+      - 'experience'
+      - 'skills'
+      - 'education'
+    title: 'Résumé'
+
+content:
+  education:
+    - 'tcc'
+  experience:
+    - 'wolfram-devops'
+    - 'wolfram-websys-admin'
+    - 'wolfram-intern'
+    - 'tcc'
+    - 'uwf-sse'
+    - 'uwf-resnet'
+  projects:
+    - 'wolfram-centos8'
+    - 'wolfram-prov'
+  skills:
+    - name: 'Containers \& Orchestration'
+      content:
+        - 'docker'
+        - 'helm'
+        - 'k8s'
+    - name: 'Data Languages'
+      content:
+        - 'csv-tsv'
+        - 'ini'
+        - 'json-yaml'
+        - 'toml'
+        - 'xml'
+    - name: 'Data Science'
+      content:
+        - 'jupyter'
+        - 'mathematica'
+        - 'matplotlib'
+        - 'plotly'
+        - 'sympy'
+    - name: 'IDEs \& Text Editors'
+      content:
+        - 'atom'
+        - 'emacs'
+        - 'nano'
+        - 'sublime-text'
+        - 'vim'
+        - 'vsvsc'
+    - name: 'Infrastructure Management'
+      content:
+        - 'ansible'
+        - 'cobbler'
+        - 'puppet'
+        - 'salt'
+        - 'vault'
+        - 'velero'
+    - name: 'LAMP Components'
+      content:
+        - 'apache'
+        - 'haproxy'
+        - 'keepalived'
+        - 'mysql'
+        - 'nginx'
+        - 'tomcat'
+    - name: 'Markup Languages'
+      content:
+        - 'latex'
+        - 'markdown'
+        - 'org'
+    - name: 'Networking Fundamentals'
+      content:
+        - 'arp'
+        - 'cidr'
+        - 'mikrotik'
+        - 'net-models'
+        - 'ubiquity'
+        - 'vlan'
+    - name: 'Operating Systems'
+      content:
+        - 'alpine-linux'
+        - 'arch-linux'
+        - 'debian'
+        - 'gentoo'
+        - 'rhel'
+        - 'void'
+        - 'windows'
+    - name: 'Programming Languages'
+      content:
+        - 'cpp'
+        - 'csharp'
+        - 'elisp'
+        - 'groovy'
+        - 'perl'
+        - 'python'
+        - 'rust'
+        - 'sh'
+    - name: 'Software Engineering'
+      content:
+        - 'bitbucket'
+        - 'git'
+        - 'github'
+        - 'gitlab'
+        - 'jenkins'
+        - 'jira'
+    - name: 'Systems Administration'
+      content:
+        - 'chronyd'
+        - 'dns'
+        - 'init'
+        - 'openldap'
+        - 'postfix'
+        - 'rsyslog'
+        - 'sssd'
+        - 'ulimits'
+    - name: 'Templating Languages'
+      content:
+        - 'cheetah'
+        - 'erb'
+        - 'jinja'
+        - 'liquid'

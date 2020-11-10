@@ -1,4 +1,4 @@
-$[ do require('this.sections') ]$
+$[ do require('this.sections', 'this.title') ]$
 
 $[ include 'style.template' ]$
 
@@ -8,12 +8,12 @@ $[ include 'info.template' ]$
 \begin{document}
 
 % Prints the header with alignment Left (L), Center (C), or Right (R).
-\makecvheader[C]
+\makecvheader[[ this.header_alignment|default('[C]', true) ]]
 
 % Prints the footer.
 \makecvfooter
   {\today}
-  {[[ full_name ]]~~~·~~~Curriculum Vitae}
+  {[[ short_name ]]~~~·~~~[[ this.title ]]}
   {\thepage}
 
 % ----- Sections -----

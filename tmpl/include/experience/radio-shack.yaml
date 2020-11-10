@@ -1,0 +1,8 @@
+experience:
+  "radio-shack":
+    header: "Radio Shack"
+    desc: "Sales Associate"
+    location: "Pensacola, FL"
+    dates: "Jul 2013 - Mar 2015"
+    content:
+      - "Provided customer service and support for a variety of mobile devices, DIY components, and more."

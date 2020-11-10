@@ -1,0 +1,11 @@
+projects:
+  "personal-remote":
+    header: '\href{https://github.com/HarrisonTotty/remote-framework}{\faGithubSquare\: Remote Execution Framework}'
+    desc: "An easy remote command execution utility"
+    location: "Personal Project"
+    dates: "Nov 2018 - Apr 2019"
+    content:
+      - "Written in Python3 as a lightweight alternative to frameworks such as Fabric and Ansible."
+      - "Automatically formats output depending on whether a TTY is present."
+      - "Capable of running both arbitrary commands and defined tasks."
+      - "Includes interactive console mode."

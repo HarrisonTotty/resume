@@ -1,0 +1,11 @@
+# Common Data
+# -----------
+
+files:
+  # ----- Libraries & Fonts -----
+  - dst: 'harry-cv.cls'
+    translate: false
+  - dst: 'fontawesome.sty'
+    translate: false
+  - dst: 'fonts/*.ttf'
+    translate: false

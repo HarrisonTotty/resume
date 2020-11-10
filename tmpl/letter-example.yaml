@@ -1,0 +1,21 @@
+# Cover Letter Example
+# --------------------
+
+include:
+  - 'include/common.yaml'
+  - 'include/info.yaml'
+
+files:
+  - dst: 'letter-example.tex'
+    src: 'letter.template'
+    address: '1234 Example St., Example IL 61820'
+    opening: 'Dear Example,'
+    recipient: 'Example, Inc.'
+    title: 'Job Application: Senior DevOps Engineer'
+    sections:
+      - title: 'About Me'
+        content: >-
+          This is some example text about myself.
+      - title: 'Why You?'
+        content: >-
+          This is some more example text, except about you.
