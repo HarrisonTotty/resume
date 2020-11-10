@@ -1,5 +1,5 @@
-# Resume Template Configuration File
-# ----------------------------------
+# Developer Resume Template Configuration File
+# --------------------------------------------
 
 include:
   - 'include/**/*.yaml'
@@ -22,20 +22,25 @@ content:
     - 'wolfram-devops'
     - 'wolfram-websys-admin'
     - 'wolfram-intern'
+    - 'tcc'
+    - 'uwf-sse'
+    - 'uwf-resnet'
   projects:
     - 'wolfram-centos8'
     - 'wolfram-prov'
   skills:
-    - name: 'DevOps'
+    - name: 'Containers \& Orchestration'
       content:
         - 'docker'
+        - 'helm'
         - 'k8s'
-    - name: 'Configuration Management'
+    - name: 'Data Languages'
       content:
-        - 'ansible'
-        - 'cobbler'
-        - 'puppet'
-        - 'salt'
+        - 'csv-tsv'
+        - 'ini'
+        - 'json-yaml'
+        - 'toml'
+        - 'xml'
     - name: 'Data Science'
       content:
         - 'jupyter'
@@ -43,20 +48,52 @@ content:
         - 'matplotlib'
         - 'plotly'
         - 'sympy'
-    - name: 'Systems Administration'
+    - name: 'IDEs \& Text Editors'
       content:
-        - 'arch-linux'
-        - 'debian'
-        - 'Puppet'
-        - 'rhel'
+        - 'atom'
+        - 'emacs'
+        - 'nano'
+        - 'sublime-text'
+        - 'vim'
+        - 'vsvsc'
+    - name: 'Infrastructure Management'
+      content:
+        - 'ansible'
+        - 'cobbler'
+        - 'puppet'
+        - 'salt'
+        - 'vault'
+        - 'velero'
+    - name: 'LAMP Components'
+      content:
+        - 'apache'
+        - 'haproxy'
+        - 'keepalived'
+        - 'mysql'
+        - 'nginx'
+        - 'tomcat'
+    - name: 'Markup Languages'
+      content:
+        - 'latex'
+        - 'markdown'
+        - 'org'
     - name: 'Networking Fundamentals'
       content:
         - 'arp'
         - 'cidr'
         - 'mikrotik'
-        - 'models'
+        - 'net-models'
         - 'ubiquity'
         - 'vlan'
+    - name: 'Operating Systems'
+      content:
+        - 'alpine-linux'
+        - 'arch-linux'
+        - 'debian'
+        - 'gentoo'
+        - 'rhel'
+        - 'void'
+        - 'windows'
     - name: 'Programming Languages'
       content:
         - 'cpp'
@@ -67,3 +104,27 @@ content:
         - 'python'
         - 'rust'
         - 'sh'
+    - name: 'Software Engineering'
+      content:
+        - 'bitbucket'
+        - 'git'
+        - 'github'
+        - 'gitlab'
+        - 'jenkins'
+        - 'jira'
+    - name: 'Systems Administration'
+      content:
+        - 'chronyd'
+        - 'dns'
+        - 'init'
+        - 'openldap'
+        - 'postfix'
+        - 'rsyslog'
+        - 'sssd'
+        - 'ulimits'
+    - name: 'Templating Languages'
+      content:
+        - 'cheetah'
+        - 'erb'
+        - 'jinja'
+        - 'liquid'

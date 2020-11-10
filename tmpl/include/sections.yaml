@@ -16,7 +16,7 @@ files:
     source: 'projects'
   - dst: 'sections/skills.tex'
     src: 'skills-section.template'
-    title: 'Relevant Skills'
+    title: 'Skills'
   - dst: 'sections/summary.tex'
     src: 'text-section.template'
     title: 'Summary'

@@ -41,7 +41,7 @@ content:
     - 'wolfram-mkconf'
     - 'personal-simplex-universe'
   skills:
-    - name: 'CD/CD'
+    - name: 'CI/CD'
       content:
         - 'jenkins-pipelines'
     - name: 'Cluster Orchestration'
