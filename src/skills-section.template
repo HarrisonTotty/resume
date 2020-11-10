@@ -12,15 +12,13 @@ $[ do require('this.title') ]$
 \begin{cvskills}
 
 $[ for group in content.skills ]$
-$[ set group_items = [] ]$
-$[ for k, v in skills.items() ]$
-$[ if k in group.content ]$
-$[ do group_items.append(v) ]$
-$[ endif ]$
-$[ endfor ]$
-\cvskill
-  {[[ group.name ]]}
-  {[[ group_items|join(', ') ]]}
+  $[- set group_items = [] ]$
+  $[- for k, v in skills.items() ]$
+    $[- if k in group.content ]$
+      $[- do group_items.append(v) ]$
+    $[- endif ]$
+  $[- endfor ]$
+  \cvskill{[[ group.name ]]}{[[ group_items|join(', ') ]]}
 $[ endfor ]$
 
 \end{cvskills}

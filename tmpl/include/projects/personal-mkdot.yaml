@@ -1,8 +1,0 @@
-projects:
-  "personal-mkdot":
-    header: '\href{https://github.com/HarrisonTotty/mkdot}{\faGithubSquare\: mkdot}'
-    desc: "The handy dotfile templating system"
-    location: "Personal Project"
-    dates: "Oct 2018 - Dec 2018"
-    content:
-      - "Based on \"mkconf\" project, but specialized for the generation of dotfiles."

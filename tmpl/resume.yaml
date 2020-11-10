@@ -7,7 +7,6 @@ include:
 files:
   - dst: 'resume.tex'
     src: 'document.template'
-    name_header: '{}{Harrison Totty}'
     sections:
       - 'summary'
       - 'experience'
@@ -25,9 +24,6 @@ content:
     - 'tcc'
     - 'uwf-sse'
     - 'uwf-resnet'
-  projects:
-    - 'wolfram-centos8'
-    - 'wolfram-prov'
   skills:
     - name: 'Containers \& Orchestration'
       content:

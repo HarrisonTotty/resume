@@ -1,8 +1,0 @@
-education:
-  "tcc":
-    header: "Tallahassee Community College"
-    desc: "Associate of Science"
-    location: "Tallahassee, FL"
-    dates: "Jan 2015 - Jan 2016"
-    content:
-      - "Graduated honors with 4.0 GPA."

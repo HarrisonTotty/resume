@@ -1,7 +1,5 @@
 $[ do require('this.sections', 'this.title') ]$
-
 $[ include 'style.template' ]$
-
 $[ include 'info.template' ]$
 
 %-------------------------------------------------------------------------------
@@ -11,12 +9,8 @@ $[ include 'info.template' ]$
 \makecvheader[[ this.header_alignment|default('[C]', true) ]]
 
 % Prints the footer.
-\makecvfooter
-  {\today}
-  {[[ short_name ]]~~~·~~~[[ this.title ]]}
-  {\thepage}
+\makecvfooter{\today}{[[ short_name ]]~~~·~~~[[ this.title ]]}{\thepage}
 
-% ----- Sections -----
 $[ for section in this.sections ]$
 \input{sections/[[ section ]].tex}
 $[ endfor ]$

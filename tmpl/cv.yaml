@@ -17,29 +17,6 @@ files:
     title: 'Curriculum Vitae'
 
 content:
-  education:
-    - 'tcc'
-    - 'uwf'
-  experience:
-    - 'wolfram-devops'
-    - 'wolfram-websys-admin'
-    - 'wolfram-intern'
-    - 'tcc'
-    - 'wolfram-summer-school'
-    - 'radio-shack'
-    - 'uwf-sse'
-    - 'uwf-resnet'
-  projects:
-    - 'wolfram-centos8'
-    - 'wolfram-prov'
-    - 'personal-tcat'
-    - 'personal-resume'
-    - 'personal-grav'
-    - 'personal-tmpl'
-    - 'personal-remote'
-    - 'personal-mkdot'
-    - 'wolfram-mkconf'
-    - 'personal-simplex-universe'
   skills:
     - name: 'CI/CD'
       content:

@@ -39,7 +39,7 @@ else
     tmpl='tmpl'
 fi
 
-cmd="$tmpl $file_name --delete --output"
+cmd="$tmpl $file_name --delete --dont-trim-blocks --output"
 if [ "$#" -gt 1 ]; then
     $cmd "$output_dir" "${@:2:$#}"
 else

@@ -1,9 +1,0 @@
-projects:
-  "personal-resume":
-    header: '\href{https://github.com/HarrisonTotty/resume}{\faGithubSquare\: CV \& Resume}'
-    desc: "(This Document)"
-    location: "Personal Project"
-    dates: "May 2019 - "
-    content:
-      - "Built from Jinja2-templated LaTeX documents via \"tmpl\"."
-      - "Raw data present in YAML format."
