@@ -5,7 +5,6 @@ include:
   - 'include/common.yaml'
   - 'include/info.yaml'
 
-
 files:
   - dst: 'letter-example.tex'
     src: 'letter.template'
