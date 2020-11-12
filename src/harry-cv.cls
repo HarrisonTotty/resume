@@ -551,7 +551,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \newcommand{\cvsubsection}[1]{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-3mm}
+  \vspace{-2mm} % -3mm
   \subsectionstyle{#1}
   \phantomsection
 }
@@ -563,14 +563,16 @@
   \paragraphstyle
 }{%
   \par
-  \vspace{2mm}
+  \vspace{-1mm} % 2mm
 }
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
+  \vspace{-1mm}
   \begin{center}
 }{%
+  \vspace{-1mm}
   \end{center}
 }
 % Define an entry of cv information
