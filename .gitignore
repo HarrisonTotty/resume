@@ -17,6 +17,9 @@
 # tmpl
 /tmpl-binary
 
+# auctex files
+.auctex*
+
 # Core latex/pdflatex auxiliary files
 *.aux
 *.lof
