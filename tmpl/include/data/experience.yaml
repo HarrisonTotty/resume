@@ -8,17 +8,17 @@ experience:
     location: 'Champaign, IL'
     dates: 'Apr 2018 - Present'
     content:
-      - 'Streamlined disaster recovery of Wolfram Cloud user data with end-to-end encrypted backups via \href{https://github.com/HarrisonTotty/backuputil}{\faGithubSquare\:backuputil}.'
+      - 'Streamlined disaster recovery of Wolfram Cloud user data with end-to-end encrypted backups via \ghrepo{backuputil}{backuputil}.'
       - 'Provisioned bare-metal Kubernetes environments for Wolfram|Alpha utilizing Kubespray, Helm, Rook-Ceph, and Velero.'
       - 'Incorporated Hashicorp Vault for secrets management of Kubernetes CI/CD pipelines.' # TODO: Come back to this.
-      - 'Implemented infrastructure as code (IaC) standards for on-premises environments by leveraging \href{https://github.com/HarrisonTotty/puppet-modules}{\faGithubSquare\:Puppet} and \href{https://github.com/HarrisonTotty/prov}{\faGithubSquare\:Cobbler}.'
+      - 'Implemented infrastructure as code (IaC) standards for on-premises environments by leveraging \ghrepo{puppet-modules}{Puppet} and \ghrepo{prov}{Cobbler}.'
   - name: 'wolfram-websys-admin'
     header: ''
     desc: 'Web Systems Administrator'
     location: ''
     dates: 'Dec 2016 - Apr 2018'
     content:
-      - 'Developed a \href{https://github.com/HarrisonTotty/mkconf}{\faGithubSquare\:templating engine} for Apache HTTP Server configurations.'
+      - 'Developed a \ghrepo{mkconf}{templating engine} for Apache HTTP Server configurations.'
       # TODO: Work on these some more.
       - 'Provisioned and maintained on-premises environments for Wolfram Cloud.'
       - 'Collaborated custom log data analysis and reports for Wolfram Cloud in Python and Mathematica.'
