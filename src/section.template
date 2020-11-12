@@ -1,4 +1,4 @@
-$[ do require('this.source', 'this.title') -]$
+$[ do require('github', 'this.source', 'this.title') -]$
 $[ set full_content = get(this.source) -]$
 
 %-------------------------------------------------------------------------------
@@ -18,7 +18,14 @@ $[ for item in full_content ]$
       $[- continue ]$
     $[- endif ]$
   $[- endif ]$
-\cventry{[[ item.desc ]]}{[[ item.header ]]}{[[ item.location ]]}{[[ item.dates ]]}
+$[ if item.ghrepo is defined ]$
+  $[- set the_header = '\\href{https://github.com/' + github + '/' + item.ghrepo + '}{\\faGithub\\:' + item.header + '}' ]$
+$[ elif item.link is defined ]$
+  $[- set the_header = '\\href{' + item.link + '}{\\faLink\\:' + item.header + '}' ]$
+$[ else ]$
+  $[- set the_header = item.header ]$
+$[ endif ]$
+\cventry{[[ item.desc ]]}{[[ the_header ]]}{[[ item.location ]]}{[[ item.dates ]]}
 {
   \begin{cvitems}
     $[- if item.content is defined ]$
