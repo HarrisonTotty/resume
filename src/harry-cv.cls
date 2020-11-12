@@ -457,7 +457,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \href{https://github.com/\@github}{\faGithub\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -712,3 +712,11 @@
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
     }
 }
+
+%-------------------------
+% Custom Commands
+% ------------------------
+
+% Defines a GitHub Repository link.
+% USAGE: \ghrepo{repo}{text}
+\newcommand*{\ghrepo}[2]{\href{https://github.com/\@github/#1}{\faGithub\:\underline{#2}}}
