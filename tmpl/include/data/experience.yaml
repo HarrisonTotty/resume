@@ -10,7 +10,7 @@ experience:
     content:
       - 'Streamlined disaster recovery of Wolfram Cloud user data with end-to-end encrypted backups via \ghrepo{backuputil}{backuputil}.'
       - 'Provisioned bare-metal Kubernetes environments for Wolfram|Alpha utilizing Kubespray, Helm, Rook-Ceph, and Velero.'
-      - 'Incorporated Hashicorp Vault for secrets management of Kubernetes CI/CD pipelines.' # TODO: Come back to this.
+      - 'Incorporated Hashicorp Vault for secrets management of Kubernetes CI/CD pipelines.'
       - 'Implemented infrastructure as code (IaC) standards for on-premises environments by leveraging \ghrepo{puppet-modules}{Puppet} and \ghrepo{prov}{Cobbler}.'
   - name: 'wolfram-websys-admin'
     header: ''
@@ -19,8 +19,6 @@ experience:
     dates: 'Dec 2016 - Apr 2018'
     content:
       - 'Developed a \ghrepo{mkconf}{templating engine} for Apache HTTP Server configurations.'
-      # TODO: Work on these some more.
-      - 'Provisioned and maintained on-premises environments for Wolfram Cloud.'
       - 'Collaborated custom log data analysis and reports for Wolfram Cloud in Python and Mathematica.'
       - 'Designed Salt configurations for managing internal infrastructure.'
       - 'Developed backend code for the Wolfram Cloud Platform in Java.'
@@ -47,7 +45,7 @@ experience:
     location: 'Tallahassee, FL'
     dates: 'May 2016 - Aug 2016'
     content:
-      - 'Provided tutoring and support to students in various mathematics and technology topics.'
+      - 'Provided tutoring in topics such as Ordinary Differential Equations and introductory programming courses.'
   - name: 'radio-shack'
     header: 'Radio Shack'
     desc: 'Sales Associate'
