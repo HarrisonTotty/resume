@@ -32,7 +32,7 @@ projects:
     content:
       - 'Categorizes transactions based on a home-made library of regular expressions.'
       - 'Leverages sklearn to perform predictive regression on financial trends.'
-      - 'Provides a wrapper around plotly for graphical analysis.'
+      - 'Provides a wrapper around plotly for graphical analysis within Jupyter Notebooks.'
   - name: 'personal-grav'
     header: 'grav'
     ghrepo: 'grav'
