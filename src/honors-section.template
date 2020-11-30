@@ -1,0 +1,28 @@
+$[ do require('this.source', 'this.title') -]$
+$[ set full_content = get(this.source) -]$
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{[[ this.title ]]}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvhonors}
+
+$[ for item in full_content ]$
+  $[- if this.source in content ]$
+    $[- if not item.name in content[this.source] ]$
+      $[- continue ]$
+    $[- endif ]$
+  $[- endif ]$
+$[ if item.link is defined ]$
+  $[- set the_header = '\\href{' + item.link + '}{\\faLink\\:' + item.header + '}' ]$
+$[ else ]$
+  $[- set the_header = item.header ]$
+$[ endif ]$
+  \cvhonor{[[ the_header ]]}{[[ item.desc ]]}{[[ item.location ]]}{[[ item.dates ]]}
+$[ endfor ]$
+
+\end{cvhonors}
