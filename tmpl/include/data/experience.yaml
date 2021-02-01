@@ -2,11 +2,18 @@
 # --------------------
 
 experience:
+  - name: 'centro-sr-devops'
+    header: 'Centro, Inc.'
+    desc: 'Senior DevOps Engineer'
+    location: 'Champaign, IL'
+    dates: 'Feb 2021 - Present'
+    content:
+      - 'Just started this position! Check back later for updates!'
   - name: 'wolfram-devops'
     header: 'Wolfram Research, Inc.'
     desc: 'DevOps Engineer'
     location: 'Champaign, IL'
-    dates: 'Apr 2018 - Present'
+    dates: 'Apr 2018 - Feb 2021'
     content:
       - 'Streamlined disaster recovery of Wolfram Cloud user data with end-to-end encrypted backups via \ghrepo{backuputil}{backuputil}.'
       - 'Provisioned bare-metal Kubernetes environments for Wolfram|Alpha utilizing Kubespray, Helm, Rook-Ceph, and Velero.'
