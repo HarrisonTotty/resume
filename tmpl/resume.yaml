@@ -18,13 +18,23 @@ content:
   education:
     - 'tcc'
   experience:
+    - 'centro-sr-devops'
     - 'wolfram-devops'
     - 'wolfram-websys-admin'
     - 'wolfram-intern'
     - 'tcc'
-    - 'uwf-sse'
-    - 'uwf-resnet'
   skills:
+    - name: 'Amazon Web Services'
+      content:
+        - 'aws-alb'
+        - 'aws-cf'
+        - 'aws-ec2'
+        - 'aws-eks'
+        - 'aws-iam'
+        - 'aws-lambda'
+        - 'aws-rds'
+        - 'aws-sf'
+        - 'aws-sm'
     - name: 'Containers \& Orchestration'
       content:
         - 'docker'
@@ -58,6 +68,7 @@ content:
         - 'cobbler'
         - 'puppet'
         - 'salt'
+        - 'terraform'
         - 'vault'
         - 'velero'
     - name: 'LAMP Components'
