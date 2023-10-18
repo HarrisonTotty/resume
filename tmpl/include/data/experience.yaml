@@ -2,14 +2,16 @@
 # --------------------
 
 experience:
-  - name: 'centro-sr-devops'
-    header: 'Centro, Inc.'
+  - name: 'basis-sr-devops'
+    header: 'Basis Technologies (Formerly Centro, Inc.)'
     desc: 'Senior DevOps Engineer'
     location: 'Remote'
     dates: 'Feb 2021 - Present'
     content:
-      - 'Developed custom operators to simplify deployment of Basis platform environments into Kubernetes.'
+      - 'Spearheaded company adoption of Kubernetes (EKS).'
       - 'Wrote terraform code for managing infrastructure hosted in AWS.'
+      - 'Architected networking and external secrets implementation for Kubernetes.'
+      - 'Authored ISO-style technical standards documents and department blog posts.'
       - 'Implemented serverless data pipelines using AWS Lambda \& Step Functions.'
   - name: 'wolfram-devops'
     header: 'Wolfram Research, Inc.'

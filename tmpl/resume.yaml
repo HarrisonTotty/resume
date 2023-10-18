@@ -18,11 +18,10 @@ content:
   education:
     - 'tcc'
   experience:
-    - 'centro-sr-devops'
+    - 'basis-sr-devops'
     - 'wolfram-devops'
     - 'wolfram-websys-admin'
     - 'wolfram-intern'
-    - 'tcc'
   skills:
     - name: 'Amazon Web Services'
       content:
@@ -40,13 +39,6 @@ content:
         - 'docker'
         - 'helm'
         - 'k8s'
-    - name: 'Data Languages'
-      content:
-        - 'csv-tsv'
-        - 'ini'
-        - 'json-yaml'
-        - 'toml'
-        - 'xml'
     - name: 'Data Science'
       content:
         - 'jupyter'
@@ -54,18 +46,11 @@ content:
         - 'matplotlib'
         - 'plotly'
         - 'sympy'
-    - name: 'IDEs \& Text Editors'
-      content:
-        - 'atom'
-        - 'emacs'
-        - 'nano'
-        - 'sublime-text'
-        - 'vim'
-        - 'vsvsc'
     - name: 'Infrastructure Management'
       content:
         - 'ansible'
         - 'cobbler'
+        - 'crossplane'
         - 'puppet'
         - 'salt'
         - 'terraform'
@@ -79,11 +64,6 @@ content:
         - 'mysql'
         - 'nginx'
         - 'tomcat'
-    - name: 'Markup Languages'
-      content:
-        - 'latex'
-        - 'markdown'
-        - 'org'
     - name: 'Networking Fundamentals'
       content:
         - 'arp'
@@ -117,6 +97,7 @@ content:
         - 'git'
         - 'github'
         - 'gitlab'
+        - 'harness'
         - 'jenkins'
         - 'jira'
     - name: 'Systems Administration'

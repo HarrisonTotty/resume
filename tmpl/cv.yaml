@@ -31,6 +31,7 @@ content:
         - 'aws-sm'
     - name: 'CI/CD'
       content:
+        - 'harness'
         - 'jenkins-pipelines'
     - name: 'Configuration Management \& IaC'
       content:
