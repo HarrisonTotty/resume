@@ -5,114 +5,65 @@ include:
   - 'include/**/*.yaml'
 
 files:
-  - dst: 'resume.tex'
-    src: 'document.template'
+  - dst: resume.tex
+    src: document.template
     sections:
-      - 'summary'
-      - 'experience'
-      - 'skills'
-      - 'education'
-    title: 'Résumé'
+      - summary
+      - experience
+      - skills
+      - projects
+    title: >-
+      Résumé
 
 content:
   education:
-    - 'tcc'
+    - tcc
   experience:
-    - 'basis-sr-devops'
-    - 'wolfram-devops'
-    - 'wolfram-websys-admin'
-    - 'wolfram-intern'
+    - grainger-sr-platform
+    - alpha-one
+    - basis-sr-devops
+    - wolfram-devops
+  projects:
+    - grainger-qbn
   skills:
-    - name: 'Amazon Web Services'
+    - name: AWS
       content:
-        - 'aws-alb'
-        - 'aws-cf'
-        - 'aws-ec2'
-        - 'aws-eks'
-        - 'aws-iam'
-        - 'aws-lambda'
-        - 'aws-rds'
-        - 'aws-sf'
-        - 'aws-sm'
-    - name: 'Containers \& Orchestration'
+        - aws-alb
+        - aws-cf
+        - aws-ec2
+        - aws-eks
+        - aws-iam
+        - aws-lambda
+        - aws-rds
+        - aws-sf
+        - aws-sm
+    - name: Kubernetes
       content:
-        - 'docker'
-        - 'helm'
-        - 'k8s'
-    - name: 'Data Science'
+        - crossplane
+        - eso
+        - helm
+        - kyverno
+        - velero
+    - name: Data Analysis
       content:
-        - 'jupyter'
-        - 'mathematica'
-        - 'matplotlib'
-        - 'plotly'
-        - 'sympy'
-    - name: 'Infrastructure Management'
+        - jupyter
+        - mathematica
+        - pandas
+        - plotly
+        - snowflake
+        - streamlit
+    - name: Security Automation
       content:
-        - 'ansible'
-        - 'cobbler'
-        - 'crossplane'
-        - 'puppet'
-        - 'salt'
-        - 'terraform'
-        - 'vault'
-        - 'velero'
-    - name: 'LAMP Components'
+        - snyk
+        - vault
+    - name: IaC
       content:
-        - 'apache'
-        - 'haproxy'
-        - 'keepalived'
-        - 'mysql'
-        - 'nginx'
-        - 'tomcat'
-    - name: 'Networking Fundamentals'
+        - puppet
+        - salt
+        - terraform
+    - name: Programming Languages
       content:
-        - 'arp'
-        - 'cidr'
-        - 'mikrotik'
-        - 'net-models'
-        - 'ubiquity'
-        - 'vlan'
-    - name: 'Operating Systems'
-      content:
-        - 'alpine-linux'
-        - 'arch-linux'
-        - 'debian'
-        - 'gentoo'
-        - 'rhel'
-        - 'void'
-        - 'windows'
-    - name: 'Programming Languages'
-      content:
-        - 'cpp'
-        - 'csharp'
-        - 'elisp'
-        - 'groovy'
-        - 'perl'
-        - 'python'
-        - 'rust'
-        - 'sh'
-    - name: 'Software Engineering'
-      content:
-        - 'bitbucket'
-        - 'git'
-        - 'github'
-        - 'gitlab'
-        - 'harness'
-        - 'jenkins'
-        - 'jira'
-    - name: 'Systems Administration'
-      content:
-        - 'chronyd'
-        - 'dns'
-        - 'init'
-        - 'openldap'
-        - 'postfix'
-        - 'rsyslog'
-        - 'sssd'
-        - 'ulimits'
-    - name: 'Templating Languages'
-      content:
-        - 'cheetah'
-        - 'erb'
-        - 'jinja'
-        - 'liquid'
+        - js
+        - python
+        - rust
+        - sh

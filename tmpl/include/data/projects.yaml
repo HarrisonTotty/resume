@@ -2,6 +2,17 @@
 # -------------
 
 projects:
+  - name: grainger-qbn
+    header: Quantum-Optimized Machine Learning of Boolean Networks
+    ghrepo: qbn
+    desc: A scientific inquiry and accompanying Python library
+    location: W. W. Grainger, Inc.
+    dates: Dec 2024
+    content:
+      - 'Personal submission to the 2024 Grainger Hackathon.'
+      - 'Extension of earlier research project under Stephen Wolfram.'
+      - "Leverages QuEra's Aquila neutral-atom quantum computer through Amazon Braket."
+      - 'Implements translation of boolean circuits to atomic lattice configuration.'
   - name: 'wolfram-centos8'
     header: 'Web Systems Infrastructure Rearchitecture'
     desc: 'A project to modernize all on-premesis user-facing infrastructure'

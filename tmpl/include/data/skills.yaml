@@ -9,7 +9,7 @@ skills:
   'arp': 'ARP'
   'atom': 'GitHub Atom'
   'aws': 'Amazon Web Services'
-  'aws-alb': 'ALB/ELB'
+  'aws-alb': 'ALB/ELB/NLB'
   'aws-cf': 'Cloud Formation'
   'aws-ec2': 'EC2'
   'aws-eks': 'EKS'
@@ -35,6 +35,7 @@ skills:
   'elisp': 'Emacs Lisp'
   'emacs': 'GNU Emacs'
   'erb': 'Embedded Ruby'
+  eso: ESO
   'gatekeeper': 'Gatekeeper'
   'gentoo': 'Gentoo'
   'git': 'git'
@@ -52,6 +53,7 @@ skills:
   'jenkins-pipelines': 'Jenkins Pipelines (Declarative \& Scripted Syntax)'
   'jinja': 'Jinja'
   'jira': 'JIRA'
+  js: JavaScript
   'json': 'JSON'
   'json-yaml': 'JSON/YAML'
   'journald': 'journald'
@@ -74,6 +76,7 @@ skills:
   'nginx': 'NGINX'
   'openldap': 'OpenLDAP'
   'org': 'Org'
+  pandas: Pandas
   'perl': 'Perl'
   'plotly': 'plotly'
   'postfix': 'postfix'
@@ -90,8 +93,11 @@ skills:
   'rust': 'Rust'
   'salt': 'Saltstack'
   'sh': 'Shell Languages'
+  snowflake: Snowflake
+  snyk: Snyk
   'sssd': 'SSSD'
   'stackstorm': 'Stackstorm'
+  streamlit: Streamlit
   'sublime-text': 'Sublime Text'
   'sympy': 'sympy'
   'syncthing': 'Syncthing'

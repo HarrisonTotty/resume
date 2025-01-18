@@ -2,11 +2,33 @@
 # --------------------
 
 experience:
+  - name: grainger-sr-platform
+    header: W. W. Grainger, Inc.
+    desc: Senior Platform Engineer (Security Automation)
+    location: Remote
+    dates: >-
+      Jan 2024 - Present
+    content:
+      - 'Architected security-focused data products with Streamlit.'
+      - 'Developed REST APIs for incorperating business logic in automation involving SAST and secrets management.'
+      - 'Active member of multiple Grainger event committees (hackathon, CKAD SME, technology conference).'
+      - 'Standardized adoption of multiple Python development best practices.'
+  - name: alpha-one
+    header: Alpha-1 Aerospace
+    desc: Principal Software Architect
+    location: Remote
+    dates: >-
+      Jun 2023 - Present
+    content:
+      - 'Lead developer on Qt-based GIS project for DOD clients.'
+      - 'Implemented low-level bytecode parser for data from embedded devices.'
+      - 'Paradigms include interactive simulation, 3D modeling and visualization, and translation between various coordinate systems.'
   - name: 'basis-sr-devops'
     header: 'Basis Technologies (Formerly Centro, Inc.)'
     desc: 'Senior DevOps Engineer'
     location: 'Remote'
-    dates: 'Feb 2021 - Present'
+    dates: >-
+      Feb 2021 - Dec 2023
     content:
       - 'Spearheaded company adoption of Kubernetes (EKS).'
       - 'Wrote terraform code for managing infrastructure hosted in AWS.'
